@@ -50,7 +50,7 @@ section{
 }
 
 .card{
-	width: 29rem;
+	width: 40rem;
 	height: 78em;
 	background-color: #ebeef8;
 	display: flex;
@@ -72,8 +72,8 @@ section{
 
 
 .card .profile-img{
-	width: 15rem;
-	height:15rem;
+	width: 20rem;
+	height:20rem;
 	object-fit: cover;
 	border-radius: 50%;
 	margin-top:-11rem;
@@ -146,8 +146,8 @@ section{
 	color:#3b5999;
 }
 
-.fa-twitter-square{
-	color:#55acee;
+.fa-likedin-in{
+	color:green;
 }
 
 .fa-instagram{
@@ -159,7 +159,7 @@ section{
 }
 
 .fa-facebook-square:hover,
-.fa-twitter-square:hover,
+.fa-phone-square:hover,
 .fa-instagram:hover,
 .fa-google-plus-square:hover{
 	color:#45e19f;
@@ -207,6 +207,57 @@ section{
 		}
 
 		.card:nth-child(4){
+			animation: fadeIn .5s 2s backwards;
+		}
+
+		.card:nth-child(5){
+			animation: fadeIn .5s .5s backwards;
+		}
+
+		.card:nth-child(6){
+			animation: fadeIn .5s 1s backwards;
+		}
+
+		.card:nth-child(7){
+			animation: fadeIn .5s 1.5s backwards;
+		}
+
+		.card:nth-child(8){
+			animation: fadeIn .5s 2s backwards;
+		}
+		.card:nth-child(9){
+			animation: fadeIn .5s .5s backwards;
+		}
+
+		.card:nth-child(10){
+			animation: fadeIn .5s 1s backwards;
+		}
+
+		.card:nth-child(11){
+			animation: fadeIn .5s 1.5s backwards;
+		}
+
+		.card:nth-child(12){
+			animation: fadeIn .5s 2s backwards;
+		}
+
+		.card:nth-child(13){
+			animation: fadeIn .5s .5s backwards;
+		}
+
+		.card:nth-child(14){
+			animation: fadeIn .5s 1s backwards;
+		}
+
+		.card:nth-child(15){
+			animation: fadeIn .5s 1.5s backwards;
+		}
+
+		.card:nth-child(16){
+			animation: fadeIn .5s 2s backwards;
+		}
+		
+		.card:nth-child(17){
 			animation: fadeIn .5s 2s backwards;
 		}
 
